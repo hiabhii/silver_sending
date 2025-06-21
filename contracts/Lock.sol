@@ -5,7 +5,7 @@ contract Lock {
     struct memo {
         string name;
         string message;
-        uint timestramp;
+        uint timestamp;
         address from;
     }
 
